@@ -5,7 +5,7 @@ body
   margin: 0px;
 }
 
-H1, H2
+H1, H2, H3
 {
   font-family: "Lucida Console", "Courier New", monospace;
   text-align : center;
@@ -28,4 +28,9 @@ footer {
 
 a {
   color: black;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
 }

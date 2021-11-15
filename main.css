@@ -12,6 +12,15 @@ H1, H2, H3
   
 }
 
+H3
+{
+  text-decoration: underline
+}
+
+.auteur{
+  text-align: right;
+  margin-right: 30%;
+}
 div.present  {
   border: black;
   border-style: solid;
@@ -34,7 +43,26 @@ ul {
   list-style: none
 }
 
-.note1_content {
+#note1 {
+  color: blue;
+}
+
+#note1_contenu {
   display: none;
   
+}
+
+
+#note1:hover + #note1_contenu {
+  display: block;
+  color: red;
+  
+}
+
+.tercet, .quatrain {
+  padding : 10px;
+}
+
+.tercet p, .quatrain p {
+  margin : 3px;
 }

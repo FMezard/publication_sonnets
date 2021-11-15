@@ -1,0 +1,11 @@
+
+H1, H2
+{
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align : center;
+  
+}
+div .presentation {
+  border: black;
+  border-style: solid;
+}

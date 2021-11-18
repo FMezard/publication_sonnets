@@ -44,25 +44,29 @@ ul {
 }
 
 #note1 {
-  color: blue;
+  color: indianred;
 }
 
 #note1_contenu {
+  position: fixed; 
+  right: 0px; 
+  bottom: 50%; 
+  width: 20%;
   display: none;
+  color: indianred;
+  font-size: 10px;
   
 }
 
 
 #note1:hover + #note1_contenu {
-  display: block;
-  color: red;
-  
+  display: block;  
 }
 
 .tercet, .quatrain {
   padding : 10px;
 }
 
-.tercet p, .quatrain p {
+.tercet div, .quatrain div {
   margin : 3px;
 }

@@ -11,13 +11,13 @@ Ce tutoriel vise à mettre en ligne des sonnets produits par des étudiant.es de
 - Faites `fichier` → `enregistrer sous` et nommez le fichier `nom_de_famille.html` (Ce nom apparaitre sur le site web, qui sera mis en ligne, si vous tenez à rester anonyme vous pouvez utiliser un pseudonyme). **Le nom de fichier ne doit comprendre ni espace ni caractère spéciaux, ni accents** 
 Vous devriez maintenant avoir quelque chose comme ça :
 
-![1828ef6b52e4d3c140eae094b425f884.png](images\1828ef6b52e4d3c140eae094b425f884.png)
+![1828ef6b52e4d3c140eae094b425f884.png](images/1828ef6b52e4d3c140eae094b425f884.png)
 
 C'est dans ce fichier que vous allez insérer votre poème entre la partie `header` et la partie `footer`.
 
 Ouvrez un navigateur (de préférence firefox) et tapez `ctrl-o` - cette commande permet d'ouvrir un fichier présent sur votre ordinateur. Choisissez le fichier `nom_de_famille.html`. Vous devez voir apparaitre cette page dans votre navigateur : 
 
-![953b893c14817bba3ec2af2c0c734113.png](images\953b893c14817bba3ec2af2c0c734113.png)
+![953b893c14817bba3ec2af2c0c734113.png](images/953b893c14817bba3ec2af2c0c734113.png)
  Lorsque vous faites une modification (ex : ajouter le texte de votre sonnet), vous pouvez voir le résultat dans le navigateur en rafraichissant la page (`ctrl-R`). Pour que le résultat apparaissent, il faut bien penser à **sauvegarder** votre travail (`ctrl-S`). 
 
 ## Encodage du sonnet 

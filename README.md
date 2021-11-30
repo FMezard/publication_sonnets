@@ -26,6 +26,7 @@ Ouvrez un navigateur (de préférence firefox) et tapez `ctrl-o` - cette command
 Créez la structure du document : 
 - 2 sections, l'une doit avoir pour classe `introduction`et l'autre `sonnet`exemple : `<section class='introduction'>texte de l'introduction</introduction>`
 - Dans la section "introduction" : le texte de votre introduction
+- `settings` → `preferences` → `auto-completion` → `html/xml close tags`
 - Dans la section "sonnet" : 
     - Une balise `h3`avec le titre du sonnet
     - Une balise ayant pour classe `auteur` avec le nom de l'auteur ou de l'autrice (si vous tenez à rester anonyme, utilisez un pseudonyme, celui-ci devra être le même que celui utilisé comme nom de fichier.
@@ -50,6 +51,6 @@ Voici un tutoriel très clair si vous avez envie d'aller plus loin : https://ope
 
 ## Enregistrement et envoie des résultats
 - Enregistrez votre travail (bien nommez les fichiers avec votre nom de famille svp !!). Si vous avez modifié le fichier CSS, merci de me l'envoyer, il doit être renommé avec le même nom que le fichier HTML, mais avec l'extenions css : `nom_de_famille.css`
-- Envoyez les fichiers par mail à `fanny.mezard@univ-lyon3.fr` avec Ecriture Créative et le numéro du groupe 
+- Envoyez les fichiers par mail à `fanny.mezard@univ-lyon3.fr` avec Ecriture Créative et le numéro du groupe, au plus tard 48h après le TD. 
 - Je mettre les fichiers en ligne à cette adresse : https://fmezard.github.io/publication_sonnets/
 

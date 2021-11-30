@@ -11,20 +11,20 @@ Ce tutoriel vise à mettre en ligne des sonnets produits par des étudiant.es de
 - Faites `fichier` → `enregistrer sous` et nommez le fichier `nom_de_famille.html` (Ce nom apparaitre sur le site web, qui sera mis en ligne, si vous tenez à rester anonyme vous pouvez utiliser un pseudonyme). **Le nom de fichier ne doit comprendre ni espace ni caractère spéciaux, ni accents** 
 Vous devriez maintenant avoir quelque chose comme ça :
 
-![1828ef6b52e4d3c140eae094b425f884.png](images\1828ef6b52e4d3c140eae094b425f884.png)
+![1828ef6b52e4d3c140eae094b425f884.png](images/1828ef6b52e4d3c140eae094b425f884.png)
 
 C'est dans ce fichier que vous allez insérer votre poème entre la partie `header` et la partie `footer`.
 
 Ouvrez un navigateur (de préférence firefox) et tapez `ctrl-o` - cette commande permet d'ouvrir un fichier présent sur votre ordinateur. Choisissez le fichier `nom_de_famille.html`. Vous devez voir apparaitre cette page dans votre navigateur : 
 
-![953b893c14817bba3ec2af2c0c734113.png](images\953b893c14817bba3ec2af2c0c734113.png)
+![953b893c14817bba3ec2af2c0c734113.png](images/953b893c14817bba3ec2af2c0c734113.png)
  Lorsque vous faites une modification (ex : ajouter le texte de votre sonnet), vous pouvez voir le résultat dans le navigateur en rafraichissant la page (`ctrl-R`). Pour que le résultat apparaissent, il faut bien penser à **sauvegarder** votre travail (`ctrl-S`). 
 
 ## Encodage du sonnet 
 *La partie "mise en page" a déjà été codée, vous pouvez vous y référer, c'est le fichier `main.css`, si vous le supprimez ou s'il est dans un dossier différent, vous verrez le HTML brut. C'est pour cela que les balises à utiliser sont imposée : si vous utilisez des noms de balises différents, la mise en page en sera affectée. *
 
 Créez la structure du document : 
-- 2 sections, l'une doit avoir pour classe `introduction`et l'autre `sonnet`exemple : `<section class='introduction'>texte de l'introduction</introduction>`
+- 2 sections, l'une doit avoir pour classe `introduction`et l'autre `sonnet`exemple : `<section class='introduction'>texte de l'introduction</section>`
 - Dans la section "introduction" : le texte de votre introduction
 - `settings` → `preferences` → `auto-completion` → `html/xml close tags`
 - Dans la section "sonnet" : 
@@ -35,7 +35,7 @@ Créez la structure du document :
 - Chaque vers doit être dans une `div` avec pour classe `vers`
 
 ## Ajouts de notes 
-Il est possible d'ajouter des notes à votre sonnet, les mots porteurs de la notes apparaitront en rouge et le contenu de la note apparaitra dans la marge à droite lorsque l'on passera la souris sur les mots concernés. Pour encoder la note il faut encoder les mots qui doivent apparaitre en rouge ainsi que le contenu de la note. Les mots du poèmes doivent être dans une balise `span` avec un id `note1` (puis `note2` et `note3`). Ils doivent être directement suivis d'une balise `span`avec pour attribut `contenu_note1`. Le fichier css ne peut gérer que 3 notes en l'état.  
+Il est possible d'ajouter des notes à votre sonnet, les mots porteurs de la notes apparaitront en rouge et le contenu de la note apparaitra dans la marge à droite lorsque l'on passera la souris sur les mots concernés. Pour encoder la note il faut encoder les mots qui doivent apparaitre en rouge ainsi que le contenu de la note. Les mots du poèmes doivent être dans une balise `span` avec un id `note1` (puis `note2` et `note3`). Ils doivent être directement suivis d'une balise `span`avec pour attribut `note1_contenu`. Le fichier css ne peut gérer que 3 notes en l'état.  
 
 ## Ajouts de liens 
 Il est possible de rajouter des liens cliquables dans votre poème ou dans l'introduction afin de faire des renvois vers des sites externes. Vous pourriez par exemple ajouter un lien vers sonnet qui vous a inspiré dans votre introduction. Pour cela, on utilise la balise `a` en mettant l'url du lien dans l'attribut `href` : `<a href="www.wikipedia.fr">Cliquez ici pour aller sur wikipedia</a>` Le texte entre les balises sera cliquable et renverra vers le site dont l'URL est donnée en attribut. 

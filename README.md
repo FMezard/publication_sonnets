@@ -24,7 +24,7 @@ Ouvrez un navigateur (de préférence firefox) et tapez `ctrl-o` - cette command
 *La partie "mise en page" a déjà été codée, vous pouvez vous y référer, c'est le fichier `main.css`, si vous le supprimez ou s'il est dans un dossier différent, vous verrez le HTML brut. C'est pour cela que les balises à utiliser sont imposée : si vous utilisez des noms de balises différents, la mise en page en sera affectée. *
 
 Créez la structure du document : 
-- 2 sections, l'une doit avoir pour classe `introduction`et l'autre `sonnet`exemple : `<section class='introduction'>texte de l'introduction</introduction>`
+- 2 sections, l'une doit avoir pour classe `introduction`et l'autre `sonnet`exemple : `<section class='introduction'>texte de l'introduction</section>`
 - Dans la section "introduction" : le texte de votre introduction
 - Dans la section "sonnet" : 
     - Une balise `h3`avec le titre du sonnet

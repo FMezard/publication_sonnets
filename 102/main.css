@@ -5,13 +5,12 @@ body
   margin: 0px;
 }
 
-H1, H3
+H1, H2, H3
 {
-  font-family: "Comforter";
-  font-size: xxx-large;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align : center;
+  
 }
-
-H2 {font-family: "Josefin Sans";}
 
 H3
 {
@@ -23,11 +22,12 @@ H3
   margin-right: 30%;
 }
 section.introduction  {
-  border: #FFD700;
-  border-style: outset;
+  border: indianred;
+  border-style: solid;
   margin: 5%;
   padding: 2%;
   font-style: italic;
+  
 }
 
 footer {

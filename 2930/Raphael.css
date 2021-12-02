@@ -1,0 +1,167 @@
+body
+{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0px;
+}
+
+H1
+{
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align : center;
+  color : blueviolet;
+  
+}
+
+h2
+{
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align : center;
+  color : blue;
+  
+}
+
+
+H3
+{
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align : center;
+  color : yellow;
+  
+}
+
+H3
+{
+  text-decoration: underline
+}
+
+.auteur{
+  text-align: left;
+  margin-right: 30%;
+  color : red;
+  font-style : italic;
+  font-size : 50px
+}
+section.introduction  {
+  border: indianred;
+  border-style: solid;
+  margin: 5%;
+  padding: 2%;
+  font-style: italic;
+  
+}
+
+footer {
+  font-size: 10px;
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+
+a {
+  color: red;
+}
+
+ul {
+  list-style: none
+}
+
+#bannerimage {
+  width: 100%;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/087/637/original/free-best-wishes-typography-background-vector.jpg);
+  height: 550px;
+  background-color: purple;
+  background-position: center;
+}
+
+#bannerimage2 {
+  width: 100%;
+  background-image: url(https://media.istockphoto.com/vectors/have-a-nice-day-lettering-vector-id670668638);
+  height: 800px;
+  background-color: blue;
+  background-position: center;
+}
+
+#bannerimage3 {
+  width: 100%;
+  background-image: url(https://resize1.prod.docfr.doc-media.fr/rcrop/650,380,center-middle/img/var/doctissimo/storage/images/fr/www/famille/vacances/vacances-en-famille/conseil-vac/50129-3-fre-FR/conseil-vac.jpg);
+  height: 400px;
+  background-color: blue;
+  background-position: center;
+}
+
+#bannerimage4 {
+  width: 100%;
+  background-image: url(https://thumbs.dreamstime.com/b/rear-view-prisoner-standing-handcuffs-corridor-rear-view-prisoner-standing-handcuffs-129292408.jpg);
+  height: 600px;
+  background-color: blue;
+  background-position: center;
+}
+
+#note1 {
+  color: indianred;
+}
+
+#note1_contenu {
+  position: fixed; 
+  right: 0px; 
+  bottom: 50%; 
+  width: 20%;
+  display: none;
+  color: indianred;
+  font-size: 10px;
+  
+}
+
+
+#note1:hover + #note1_contenu {
+  display: block;  
+}
+
+
+#note2 {
+  color: indianred;
+}
+
+#note2_contenu {
+  position: fixed; 
+  right: 0px; 
+  bottom: 50%; 
+  width: 20%;
+  display: none;
+  color: indianred;
+  font-size: 10px;
+  
+}
+
+
+#note2:hover + #note2_contenu {
+  display: block;  
+}
+
+#note3 {
+  color: indianred;
+}
+
+#note3_contenu {
+  position: fixed; 
+  right: 0px; 
+  bottom: 50%; 
+  width: 20%;
+  display: none;
+  color: indianred;
+  font-size: 10px;
+  
+}
+
+
+#note3:hover + #note3_contenu {
+  display: block;  
+}
+
+.tercet, .quatrain {
+  padding : 10px;
+}
+
+.tercet div, .quatrain div {
+  margin : 3px;
+}

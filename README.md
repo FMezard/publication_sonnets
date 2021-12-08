@@ -1,6 +1,12 @@
+
 # Publication en ligne de sonnets 
 
-Ce tutoriel vise à mettre en ligne des sonnets produits par des étudiant.es de L1 et L2 du cours d'Ecriture Créative. 
+Ce tutoriel vise à mettre en ligne des sonnets produits par des étudiant.es de L1 et L2 du cours d'Ecriture Créative.
+
+Le résultat peut être consulté à l'adresse suivante : # publication_sonnets
+Publication des sonnets des cours d'écriture créative de Lyon 3 - 2021
+
+Les sonnets sont à découvrir ici : https://fmezard.github.io/publication_sonnets/ 
 
 ## Mise en place 
 
@@ -53,4 +59,5 @@ Voici un tutoriel très clair si vous avez envie d'aller plus loin : https://ope
 - Enregistrez votre travail (bien nommez les fichiers avec votre nom de famille svp !!). Si vous avez modifié le fichier CSS, merci de me l'envoyer, il doit être renommé avec le même nom que le fichier HTML, mais avec l'extenions css : `nom_de_famille.css`
 - Envoyez les fichiers par mail à `fanny.mezard@univ-lyon3.fr` avec Ecriture Créative et le numéro du groupe, au plus tard 48h après le TD. 
 - Je mettre les fichiers en ligne à cette adresse : https://fmezard.github.io/publication_sonnets/
+
 

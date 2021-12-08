@@ -1,0 +1,114 @@
+body
+{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0px;
+}
+
+H1, H2, H3
+{
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align : center;
+  
+}
+
+H3
+{
+  text-decoration: underline
+}
+
+.auteure_date{
+  text-align: right;
+  margin-right: 30%;
+}
+section.introduction  {
+  border: indianred;
+  border-style: solid;
+  margin: 5%;
+  padding: 2%;
+  font-style: italic;
+  
+}
+
+footer {
+  font-size: 10px;
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+ul {
+  list-style: none
+}
+
+#note1 {
+  color: purple;
+}
+
+#note1_contenu {
+  position: fixed; 
+  right: 10px; 
+  bottom: 20%; 
+  width: 30%;
+  display: none;
+  color: purple;
+  font-size: 10px;
+  
+}
+
+
+#note1:hover + #note1_contenu {
+  display: block;  
+}
+
+
+#note2 {
+  color: indianred;
+}
+
+#note2_contenu {
+  position: fixed; 
+  right: 0px; 
+  bottom: 50%; 
+  width: 20%;
+  display: none;
+  color: indianred;
+  font-size: 10px;
+  
+}
+
+
+#note2:hover + #note2_contenu {
+  display: block;  
+}
+
+#note3 {
+  color: indianred;
+}
+
+#note3_contenu {
+  position: fixed; 
+  right: 0px; 
+  bottom: 50%; 
+  width: 20%;
+  display: none;
+  color: indianred;
+  font-size: 10px;
+  
+}
+
+
+#note3:hover + #note3_contenu {
+  display: block;  
+}
+
+.tercet, .quatrain {
+  padding : 10px;
+}
+
+.tercet div, .quatrain div {
+  margin : 3px;
+}
